@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">My Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, my name is <span class="purple">Ukesh</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+
+          <div class="buttons">
+            <button class="btn">
+              <a
+                href="https://drive.google.com/file/d/1i2Z5WNmIYBXBO1g2YqXVMBO7Yg2dYLvF/view?usp=drive_link"
+                class="btn"
+                target="_blank"
+                download
+                >Download Resume</a
+              >
+            </button>
+
+            <a href="https://github.com/ukeshchand" class="btn" target="_blank"
+              >Visit Github</a
+            >
+          </div>
+        </div>
+        <div class="rightSection">
+          <img class="bg" src="bg.png" alt="Background image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="developers image" />
+            <div class="vertical-title">Front-end developer(Intern) 2022</div>
+            <div class="vertical-desc">
+              I completed my 3 months long internship period working as a
+              frontend developer at HI-tech solutions and services pvt.ltd
+              located at kalimati, kathmandu.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <!-- <div class="footer">
+            <div class="footer-first">
+                <h1>My Portfolio</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div> -->
+
+      <div class="footer-rights">
+        copyright &#169; ukeshchand.com.np | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
