@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <script src="script.js" defer></script>
+    
   </head>
   <body>
     <header>
@@ -31,12 +32,12 @@
     <main>
       <section class="firstSection">
         <div class="leftSection">
-          Hi, my name is <span class="purple">Ukesh</span>
+         <div> Hi, my name is <span class="purple">Ukesh<span></div>
           <div>and I am a passionate</div>
           <span id="element"></span>
 
           <div class="buttons">
-            <button class="btn">
+            <!-- <button class="btn"> -->
               <a
                 href="https://drive.google.com/file/d/1i2Z5WNmIYBXBO1g2YqXVMBO7Yg2dYLvF/view?usp=drive_link"
                 class="btn"
@@ -44,7 +45,7 @@
                 download
                 >Download Resume</a
               >
-            </button>
+            <!-- </button> -->
 
             <a href="https://github.com/ukeshchand" class="btn" target="_blank"
               >Visit Github</a
@@ -62,6 +63,13 @@
         <div class="box">
           <div class="vertical">
             <img class="image-top" src="developer.png" alt="developers image" />
+            <div class="vertical-title">Training on front-end development using React JS (2021)</div>
+            <div class="vertical-desc">
+              I completed 3 months long training on frontend development using React Js provided by IIMS College.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="developer.png" alt="developers image" />
             <div class="vertical-title">Front-end developer(Intern) 2022</div>
             <div class="vertical-desc">
               I completed my 3 months long internship period working as a
@@ -69,6 +77,7 @@
               located at kalimati, kathmandu.
             </div>
           </div>
+         
         </div>
       </section>
     </main>
@@ -113,6 +122,7 @@
       var typed = new Typed("#element", {
         strings: ["Web Developer.", "Web Designer."],
         typeSpeed: 50,
+        loop: true,
       });
     </script>
   </body>
